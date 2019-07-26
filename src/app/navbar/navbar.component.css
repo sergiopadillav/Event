@@ -1,0 +1,39 @@
+* {
+  font-size: 16px;
+}
+
+#menu li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+
+#menu li a:before{
+  content: "";
+  width: 60px;
+  position:absolute;
+  border-bottom: 5px solid rgb(248, 34, 72);
+  bottom: 0;
+  right: 350px;
+  transition: 0.5s all;
+}
+
+#menu li a:hover:before {
+  right: 0;
+}
+
+ .btn-outline-primary{
+   border-radius: 50px;
+   color: rgb(255, 255, 255);
+   border-color: rgb(248, 34, 72);
+   background: rgb(248, 34, 72);
+ }
+
+.btn-outline-primary:hover{
+  background: none;
+}
+
+.navbar-bg{
+  background-color: rgb(3, 9, 25);
+}
